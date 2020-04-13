@@ -12,6 +12,7 @@
     "start": "coffee -cbm ./ && yarn host"
   },
   "dependencies": {
+    "@mdi/font": "^5.0.45",
     "@vue/cli": "^4.2.3",
     "core-js": "^3.6.4",
     "serve": "^11.3.0",
