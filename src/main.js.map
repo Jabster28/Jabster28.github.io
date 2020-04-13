@@ -1,0 +1,13 @@
+{
+  "version": 3,
+  "file": "main.js",
+  "sourceRoot": "..",
+  "sources": [
+    "src/main.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA,OAAO,GAAP,MAAA;;AACA,OAAO,GAAP,MAAA;;AACA,OAAO,OAAP,MAAA;;AACA,OAAO,OAAP,MAAA;;AACA,IAAI,GAAJ,CAAQ;EACP,OADO;EAEP,OAFO;EAGP,MAAA,EAAQ,QAAA,CAAC,CAAD,CAAA;WACP,CAAA,CAAE,GAAF;EADO;AAHD,CAAR,CAKE,CAAC,MALH,CAKU,MALV",
+  "sourcesContent": [
+    "import Vue from 'vue'\nimport App from './App.vue'\nimport vuetify from './plugins/vuetify'\nimport Snippet from './components/Snippet.vue'\nnew Vue({\n\tvuetify,\n\tSnippet,\n\trender: (h) ->\n\t\th App\n}).$mount(\"#app\")\n"
+  ]
+}
