@@ -9,7 +9,7 @@
     "test:unit": "vue-cli-service test:unit",
     "debug": "vue ui",
     "refresh": "refresh",
-    "bump": "yarn build && git add -f dist/* && git commit -m 'chore: add built files' && standard-version && git push --follow-tags origin master",
+    "bump": "yarn build && git add -f dist/* && git commit -m 'chore: add built files' && standard-version && git push --follow-tags origin master && firebase deploy",
     "start": "coffee -cbm ./ && yarn host"
   },
   "dependencies": {
