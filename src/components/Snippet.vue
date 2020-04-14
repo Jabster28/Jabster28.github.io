@@ -56,15 +56,16 @@ export default
   ]
   computed:
     escName: -> @esc(@song) + @esc(@artist)
-  methods:                   
+  methods:            
+    mute: -> window[@escName + "_player"].mute()
     esc: (name) -> name.replace(/[^[^a-zA-Z_$]|[^\w$]/gi, "_").toLowerCase()
                           #      ^ matches stuff that shouldnt be in a js variable name
     restartVideo: -> window[@escName + "-player"].seekTo(@startTime || 0)
     startVideo: -> 
       @playing = true
-      window[@escName + "-player"].playVideo()
-      setTimeout window[@escName + "-player"].playVideo, 200
-      setTimeout window[@escName + "-player"].playVideo, 300
+      window[@escName + "_player"].unMute()
+      window[@escName + "_player"].playVideo()
+      setTimeout window[@escName + "_player"].playVideo, 10
     
     pauseVideo: -> 
       window[@escName + "-player"].pauseVideo()
@@ -84,12 +85,13 @@ export default
       # window.updateTimerDisplay()
       # window.updateProgressBar()
       # Clear any old interval.
-      window[e + "_instance"].restartVideo()
+      window[e + "_instance"].mute()
       window[e + "_instance"].startVideo()
       setTimeout (->
                   window[e + "_instance"].ready = true
-                 ), 2000   
-      setTimeout window[e + "_instance"].pauseVideo, 500
+                 ), 800  
+      setTimeout window[e + "_instance"].pauseVideo, 300
+      setTimeout window[e + "_instance"].restartVideo, 500
                 
       clearInterval window.time_update_interval
       # Start interval to update elapsed time display and
@@ -103,8 +105,6 @@ export default
       # Update current time text display.
       # $('#current-time').text formatTime(player.getCurrentTime())
       # $('#duration').text formatTime(player.getDuration())
-      @startVideo()
-      @stopVideo()
       return
 
     window.formatTime = (time) ->
