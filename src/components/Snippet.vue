@@ -29,7 +29,7 @@
         </v-list-item>
 
         <v-card-actions>          
-          <v-btn text  @click="startVideo()" color="primary" :disabled="!ready">        
+          <v-btn text  @click="startVideo(true)" color="primary" :disabled="!ready">        
             <v-icon dark>mdi-play</v-icon>
           </v-btn>          
           <v-btn text  @click="pauseVideo()" color="error" :disabled="!ready">        
@@ -61,9 +61,9 @@ export default
     esc: (name) -> name.replace(/[^[^a-zA-Z_$]|[^\w$]/gi, "_").toLowerCase()
                           #      ^ matches stuff that shouldnt be in a js variable name
     restartVideo: -> window[@escName + "_player"].seekTo(@startTime || 0)
-    startVideo: -> 
+    startVideo: (e) -> 
       @playing = true
-      window[@escName + "_player"].unMute()
+      window[@escName + "_player"].unMute() if e?
       window[@escName + "_player"].playVideo()
       setTimeout window[@escName + "_player"].playVideo, 10
     
