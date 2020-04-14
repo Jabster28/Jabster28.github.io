@@ -29,6 +29,13 @@
           <v-row justify="center">
             <!-- https://youtu.be/gQngg8iQipk  -->
             <songsnippet
+              artist="W2S"
+              song="Good afternoon,"
+              desc="your mom looks like Kim Jong Un"
+              url="https://www.youtube.com/watch?v=AMYhP4H9m1I"
+              startTime="396"
+            />
+            <songsnippet
               artist="Noisestorm"
               song="Crab rave"
               desc="🦀 my dad is gone 🦀"
