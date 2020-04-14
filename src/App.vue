@@ -7,7 +7,7 @@
       <v-app-bar app>
         <v-row justify="center">
           <v-btn class="float-left" icon @click="toggleTheme()">
-            <v-icon dark="this.$vuetify.theme.dark">mdi-theme-light-dark</v-icon>
+            <v-icon :dark="this.$vuetify.theme.dark">mdi-theme-light-dark</v-icon>
           </v-btn>
           <v-btn icon @click="startAll()">
             <v-icon color="info">mdi-play</v-icon>
