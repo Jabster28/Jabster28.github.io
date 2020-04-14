@@ -3,9 +3,13 @@
     <v-app>
       <!-- <v-navigation-drawer app>
       </v-navigation-drawer>
+      -->
 
       <v-app-bar app>
-      </v-app-bar> -->
+        <v-btn @click="startAll()"><v-icon dark color="info">mdi-play</v-icon></v-btn>
+        <v-btn @click="pauseAll()"><v-icon dark color="error">mdi-pause</v-icon></v-btn>
+        <v-btn @click="restartAll()"><v-icon dark color="success">mdi-replay</v-icon></v-btn>
+      </v-app-bar>
 
       <!-- Sizes your content based upon application components -->
       <v-content>
@@ -138,6 +142,16 @@ export default {
     # log: (->
     #   console.log "wow"
     # )
+    restartAll: ->
+      ytplayers.forEach (x) ->
+        eval x.replace(/ready$/, 'instance') + '.restartVideo()'
+    startAll: ->
+      ytplayers.forEach (x) ->
+        eval x.replace(/ready$/, 'instance') + '.startVideo(true)'
+    pauseAll: ->
+      ytplayers.forEach (x) ->
+        eval x.replace(/ready$/, 'instance') + '.pauseVideo()'
+
   }
   data: -> {
     # vue: "great"
