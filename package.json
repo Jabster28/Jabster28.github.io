@@ -2,6 +2,11 @@
   "name": "meme-soundboard",
   "version": "1.2.0",
   "private": true,
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "host": "serve dist/",
@@ -16,13 +21,15 @@
   "dependencies": {
     "@mdi/font": "^5.0.45",
     "@vue/cli": "^4.2.3",
+    "commitizen": "^4.0.4",
     "core-js": "^3.6.4",
     "serve": "^11.3.0",
     "vue": "^2.6.11",
-    "vuetify": "^2.2.15",
-    "commitizen": "^4.0.4"
+    "vuetify": "^2.2.15"
   },
   "devDependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
     "@vue/cli-plugin-babel": "~4.2.0",
     "@vue/cli-plugin-unit-jest": "~4.2.0",
     "@vue/cli-plugin-vuex": "~4.2.0",
@@ -34,6 +41,7 @@
     "coffeescript": "^2.3.2",
     "css-loader": "^3.4.2",
     "cz-conventional-changelog": "3.1.0",
+    "husky": "^4.2.5",
     "node-sass": "^4.12.0",
     "sass": "^1.19.0",
     "sass-loader": "^8.0.2",
