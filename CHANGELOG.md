@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/Jabster28/meme-soundboard/compare/v1.1.0...v1.2.0) (2020-04-14)
+
+
+### Features
+
+* **firebase:** add performance monitoring ([5665b4a](https://github.com/Jabster28/meme-soundboard/commit/5665b4ae57f969812aa840ecca22bbf11e58851d))
+
+
+### Bug Fixes
+
+* change url ([148de6a](https://github.com/Jabster28/meme-soundboard/commit/148de6a29173441e50e0a5fd01e46d443323ed96))
+
 ## [1.1.0](https://github.com/Jabster28/meme-soundboard/compare/v0.2.0...v1.1.0) (2020-04-14)
 
 
