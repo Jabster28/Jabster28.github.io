@@ -7,8 +7,8 @@ It doesn't have many features at the moment, but the ones it does have are:
 
 - 📄 Beautiful [List of changes](https://github.com/Jabster28/meme-soundboard/blob/master/CHANGELOG.md), thanks to [Standard Version](https://github.com/conventional-changelog/standard-version) and the use of [Conventional Commit Messages](https://www.conventionalcommits.org/en/v1.0.0-beta.4/#specification)
 
-- ⚡  Fast, thanks to CoffeeScript & compiled Vue files under the hood, and:
+- ⚡  Fast, thanks to CoffeeScript & compiled Vue files under the hood
 
-- 🌃 Perpetual dark mode (I forgot to add a toggle :/)
+- 🌃 Light & Dark mode
 
-So yeah, use this if you need to drop a crab rave in the middle of a call or something.
+So yeah, use this if you need to drop a crab rave in the middle of a call or someone asks how you're doing or something.
