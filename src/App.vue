@@ -4,11 +4,21 @@
       <!-- <v-navigation-drawer app>
       </v-navigation-drawer>
       -->
-
       <v-app-bar app>
-        <v-btn @click="startAll()"><v-icon dark color="info">mdi-play</v-icon></v-btn>
-        <v-btn @click="pauseAll()"><v-icon dark color="error">mdi-pause</v-icon></v-btn>
-        <v-btn @click="restartAll()"><v-icon dark color="success">mdi-replay</v-icon></v-btn>
+        <v-row justify="center">
+          <v-btn class="float-left" icon @click="toggleTheme()">
+            <v-icon dark="this.$vuetify.theme.dark">mdi-theme-light-dark</v-icon>
+          </v-btn>
+          <v-btn icon @click="startAll()">
+            <v-icon color="info">mdi-play</v-icon>
+          </v-btn>
+          <v-btn icon @click="pauseAll()">
+            <v-icon color="error">mdi-pause</v-icon>
+          </v-btn>
+          <v-btn icon @click="restartAll()">
+            <v-icon color="success">mdi-replay</v-icon>
+          </v-btn>
+        </v-row>
       </v-app-bar>
 
       <!-- Sizes your content based upon application components -->
@@ -18,14 +28,13 @@
           <!-- https://www.youtube.com/watch?v=XmBV7WFdKQY -->
           <v-row justify="center">
             <!-- https://youtu.be/gQngg8iQipk  -->
-
             <songsnippet
               artist="Noisestorm"
               song="Crab rave"
               desc="🦀 my dad is gone 🦀"
               url="https://www.youtube.com/watch?v=LDU_Txk06tM"
             />
-                        <songsnippet
+            <songsnippet
               artist="Noisestorm"
               song="[Bridge]"
               desc="🦀 my dad is gone 🦀"
@@ -114,7 +123,7 @@
 
       <!-- <v-footer app>
         
-      </v-footer> -->
+      </v-footer>-->
     </v-app>
   </div>
 </template>
@@ -139,6 +148,7 @@ export default {
     # )
   }
   methods: {
+    toggleTheme: -> this.$vuetify.theme.dark = !this.$vuetify.theme.dark
     # log: (->
     #   console.log "wow"
     # )

@@ -3,15 +3,15 @@
     <div :id="'video-placeholder-' + escName.replace(/_/gi, '-')"></div>
     <v-col>
       <v-card
-      :loading="!ready"
-      class="mx-auto"
-      width="300"
-              cols="12"
+        :loading="!ready"
+        class="mx-auto"
+        width="300"
+        cols="12"
         sm="4"
-              :color="playing ? 'info' : null"
-      outlined
+        :color="playing ? 'info' : null"
+        outlined
       >
-      <!-- https://img.youtube.com/vi/<insert-youtube-video-id-here>/sddefault.jpg -->
+        <!-- https://img.youtube.com/vi/<insert-youtube-video-id-here>/sddefault.jpg -->
         <v-list-item three-line>
           <v-list-item-content>
             <div class="overline mb-4">{{artist}}</div>
@@ -19,27 +19,23 @@
             <v-list-item-subtitle>{{desc}}</v-list-item-subtitle>
           </v-list-item-content>
 
-          <v-list-item-avatar
-            tile
-            size="80"
-            color="grey"
-          >
-           <v-img :src="`https://img.youtube.com/vi/${youtube_parser(url)}/sddefault.jpg`"></v-img>
+          <v-list-item-avatar tile size="80" color="grey">
+            <v-img :src="`https://img.youtube.com/vi/${youtube_parser(url)}/sddefault.jpg`"></v-img>
           </v-list-item-avatar>
         </v-list-item>
 
-        <v-card-actions>          
-          <v-btn text  @click="startVideo(true)" color="primary" :disabled="!ready">        
-            <v-icon dark>mdi-play</v-icon>
-          </v-btn>          
-          <v-btn text  @click="pauseVideo()" color="error" :disabled="!ready">        
-            <v-icon dark>mdi-pause</v-icon>
-          </v-btn>          
-          <v-btn text  @click="restartVideo()" color="success" :disabled="!ready">  
-            <v-icon dark>mdi-replay</v-icon>
+        <v-card-actions>
+          <v-btn text @click="startVideo(true)" color="primary" :disabled="!ready">
+            <v-icon>mdi-play</v-icon>
+          </v-btn>
+          <v-btn text @click="pauseVideo()" color="error" :disabled="!ready">
+            <v-icon>mdi-pause</v-icon>
+          </v-btn>
+          <v-btn text @click="restartVideo()" color="success" :disabled="!ready">
+            <v-icon>mdi-replay</v-icon>
           </v-btn>
         </v-card-actions>
-    </v-card>
+      </v-card>
     </v-col>
   </div>
 </template>
