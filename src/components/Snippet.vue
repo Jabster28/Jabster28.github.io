@@ -1,6 +1,6 @@
 <template>
   <div class="e">
-    <div :id="'video-placeholder-' + esc(song)"></div>
+    <div :id="'video-placeholder-' + escName.replace(/_/gi, '-')"></div>
     <v-col>
       <v-card
       :loading="!ready"
@@ -60,7 +60,7 @@ export default
     mute: -> window[@escName + "_player"].mute()
     esc: (name) -> name.replace(/[^[^a-zA-Z_$]|[^\w$]/gi, "_").toLowerCase()
                           #      ^ matches stuff that shouldnt be in a js variable name
-    restartVideo: -> window[@escName + "-player"].seekTo(@startTime || 0)
+    restartVideo: -> window[@escName + "_player"].seekTo(@startTime || 0)
     startVideo: -> 
       @playing = true
       window[@escName + "_player"].unMute()
@@ -68,7 +68,7 @@ export default
       setTimeout window[@escName + "_player"].playVideo, 10
     
     pauseVideo: -> 
-      window[@escName + "-player"].pauseVideo()
+      window[@escName + "_player"].pauseVideo()
       @playing = false
     youtube_parser: (url) ->
       regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/
@@ -115,7 +115,7 @@ export default
       minutes + ':' + seconds
     window.ytplayers.push(@escName + "_ready")
     window[@escName + "_ready"] = =>
-      window[@escName + "-player"] = new (window.YT.Player)('video-placeholder-' + @esc(@song),
+      window[@escName + "_player"] = new (window.YT.Player)('video-placeholder-' + @escName.replace(/_/gi, '-'),
         width: 0.001
         height: 0.001 
         videoId: @youtube_parser(@url)
