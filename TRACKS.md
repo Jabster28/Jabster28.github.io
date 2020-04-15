@@ -18,6 +18,7 @@
   - [me rn](#me-rn)
   - [I wanna tell u about my son](#i-wanna-tell-u-about-my-son)
   - [Funeral dance Music](#funeral-dance-music)
+  - [Copypasta rap](#copypasta-rap)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -107,3 +108,11 @@ If you want to add one, head to the bottom of the [contribution page](https://gi
 - Artist: A dead guy
 - Description: "f to pay respects"
 - URL: <https://www.youtube.com/watch?v=kiEahw-p9uA>
+
+## Copypasta rap
+
+- Artist: Senzawa
+- Description: "x3"
+- Start Time: 12 (0:12)
+- URL: <https://www.youtube.com/watch?v=h6DNdop6pD8>
+

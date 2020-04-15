@@ -124,6 +124,13 @@
               url="https://www.youtube.com/watch?v=kiEahw-p9uA"
               startTime="30"
             />
+            <songsnippet
+              artist="Senzawa"
+              song="Copypasta rap"
+              desc="x3"
+              url="https://www.youtube.com/watch?v=h6DNdop6pD8"
+              startTime="12"
+            />
           </v-row>
         </v-container>
       </v-content>
