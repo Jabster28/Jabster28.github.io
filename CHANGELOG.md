@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/Jabster28/meme-soundboard/compare/v1.2.0...v1.3.0) (2020-04-15)
+
+
+### Features
+
+* **app:** add a light mode 🎉 ([dacdd93](https://github.com/Jabster28/meme-soundboard/commit/dacdd93f75281d0dbede1654638d1ca76649fa41))
+* **track:** add w2s good afternoon ([5ecaf08](https://github.com/Jabster28/meme-soundboard/commit/5ecaf08ee478ff0d0efc54bd3d245993eee59eb3))
+* made adding songs easier! ([6c81816](https://github.com/Jabster28/meme-soundboard/commit/6c81816a40c8b0153fbb55bf84bcc082f29a3c47))
+
 ## [1.2.0](https://github.com/Jabster28/meme-soundboard/compare/v1.1.0...v1.2.0) (2020-04-14)
 
 
