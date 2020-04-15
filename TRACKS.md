@@ -19,6 +19,7 @@
   - [I wanna tell u about my son](#i-wanna-tell-u-about-my-son)
   - [Funeral dance Music](#funeral-dance-music)
   - [Copypasta rap](#copypasta-rap)
+  - [Omae wa mou shindeiru](#omae-wa-mou-shindeiru)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -115,4 +116,12 @@ If you want to add one, head to the bottom of the [contribution page](https://gi
 - Description: "x3"
 - Start Time: 12 (0:12)
 - URL: <https://www.youtube.com/watch?v=h6DNdop6pD8>
+
+## Omae wa mou shindeiru
+
+- Artist: Fist of the North Star
+- Description: "NANI!?!?"
+- Start Time: 4 (0:04)
+- URL: <https://www.youtube.com/watch?v=dNQs_Bef_V8>
+
 

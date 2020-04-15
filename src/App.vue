@@ -124,12 +124,20 @@
               url="https://www.youtube.com/watch?v=kiEahw-p9uA"
               startTime="30"
             />
+            <!-- https://www.youtube.com/watch?v=dNQs_Bef_V8&feature=youtu.be&t=4 -->
             <songsnippet
               artist="Senzawa"
               song="Copypasta rap"
               desc="x3"
               url="https://www.youtube.com/watch?v=h6DNdop6pD8"
               startTime="12"
+            />
+            <songsnippet
+              artist="Fist of the North Star"
+              song="Omae wa mou shindeiru"
+              desc="NANI!?!?"
+              url="https://www.youtube.com/watch?v=dNQs_Bef_V8"
+              startTime="4"
             />
           </v-row>
         </v-container>
