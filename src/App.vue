@@ -50,18 +50,18 @@
             />
             <songsnippet
               artist="Toby fox"
-              song="Undertale"
+              song="Megalovania"
               desc="You're gonna have a bad time"
               url="https://www.youtube.com/watch?v=c5daGZ96QGU"
             />
             <songsnippet
-              artist="the pillar men"
-              song="That one thing"
+              artist="The Pillar Men"
+              song="Pillar Men Theme"
               url="https://www.youtube.com/watch?v=XUhVCoTsBaM"
             />
             <songsnippet
-              artist="jojo"
-              song="Giorno's theme"
+              artist="JoJo"
+              song="Giorno's Theme"
               url="https://www.youtube.com/watch?v=So54Khf7bB8"
             />
             <!-- or 1:12 -->
@@ -83,7 +83,7 @@
             <songsnippet
               artist="alright"
               song="alright alright"
-              desc="alright alright alright alright alright alright alright alright alright alright alright alright "
+              desc="alright alright alright alright alright alright alright alright alright alright alright alright"
               url="https://www.youtube.com/watch?v=8qMtsir0l9k"
               startTime="15"
             />
@@ -94,32 +94,32 @@
               url="https://www.youtube.com/watch?v=XmBV7WFdKQY"
             />
             <songsnippet
-              artist="kirito"
-              song="sao intro"
-              desc="gun gale is bad"
-              url="https://youtu.be/OsLY7DXWsF4"
+              artist="Kirito"
+              song="SAO Intro"
+              desc="gun gale was bad"
+              url="https://www.youtube.com/watch?v=OsLY7DXWsF4"
             />
             <songsnippet
-              artist="chizz"
-              song="idkon"
+              artist="Ferris"
+              song="Ferris' Sand Canyon"
               desc="something something sand canyon"
-              url="https://youtu.be/gQngg8iQipk"
+              url="https://www.youtube.com/watch?v=gQngg8iQipk"
             />
             <songsnippet
               artist="oh hi"
-              song="thanks for checking in i'm"
-              desc="STILL A PIECE OF GARBAAAAAGE"
+              song="me rn"
+              desc="thanks for checking in i'm STILL A PIECE OF GARBAAAAAGE"
               url="https://www.youtube.com/watch?v=FZUcpVmEHuk"
             />
             <songsnippet
-              artist="dawud"
-              song="i wanna tell u bout my son"
-              desc="he so smart"
+              artist="Dawud"
+              song="I wanna tell u about my son"
+              desc="He's so smart and he's so dumb"
               url="https://www.youtube.com/watch?v=1qQz3OG7VTw"
             />
             <songsnippet
-              artist="a dead guy"
-              song="Funeral Dance music"
+              artist="A dead guy"
+              song="Funeral dance Music"
               desc="f to pay respects"
               url="https://www.youtube.com/watch?v=kiEahw-p9uA"
               startTime="30"
