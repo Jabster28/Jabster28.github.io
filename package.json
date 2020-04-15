@@ -15,7 +15,7 @@
     "debug": "vue ui",
     "refresh": "refresh",
     "bump": "yarn build && git add -f dist/* && git commit -m 'chore(build): add built files' && standard-version && git push --follow-tags origin master && firebase deploy",
-    "deploy": "yarn build && firebase deploy",
+    "deploy": "yarn build && firebase deploy && git checkout dist/",
     "start": "coffee -cbm ./ && yarn host"
   },
   "dependencies": {
