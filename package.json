@@ -40,7 +40,7 @@
     "cache-loader": "4.1.0",
     "coffee-loader": "1.0.0",
     "coffeescript": "2.5.1",
-    "css-loader": "3.5.3",
+    "css-loader": "3.6.0",
     "cz-conventional-changelog": "3.2.0",
     "husky": "4.2.5",
     "node-sass": "4.14.1",
