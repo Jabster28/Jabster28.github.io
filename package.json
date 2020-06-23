@@ -49,7 +49,7 @@
     "standard-version": "8.0.0",
     "vue-cli-plugin-coffee": "0.5.12",
     "vue-cli-plugin-vuetify": "2.0.5",
-    "vue-loader": "15.9.2",
+    "vue-loader": "15.9.3",
     "vue-template-compiler": "2.6.11",
     "vuetify-loader": "1.4.4",
     "webpack": "4.43.0"
