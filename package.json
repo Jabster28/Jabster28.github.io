@@ -44,7 +44,7 @@
     "cz-conventional-changelog": "3.2.0",
     "husky": "4.2.5",
     "node-sass": "4.14.1",
-    "sass": "1.26.7",
+    "sass": "1.26.10",
     "sass-loader": "9.0.0",
     "standard-version": "8.0.0",
     "vue-cli-plugin-coffee": "0.5.12",
