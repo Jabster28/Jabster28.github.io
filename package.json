@@ -10,7 +10,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "host": "serve dist/",
-    "build": "vue-cli-service build",
+    "build": "sed -i \"s/commitHashHere/$(git rev-parse --short HEAD)/\" public/index.html && vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "debug": "vue ui",
     "refresh": "refresh",
