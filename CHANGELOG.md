@@ -2,6 +2,35 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.4.0](https://www.github.com/Jabster28/meme-soundboard/compare/v1.3.0...v1.4.0) (2020-07-07)
+
+
+### Features
+
+* **track:** add copypasta rap ([64bbbf6](https://www.github.com/Jabster28/meme-soundboard/commit/64bbbf61002c323ae6ba7b5e6ebecca7b690e282))
+* **track:** add omae wa mou shindeiru ([ff5d8a6](https://www.github.com/Jabster28/meme-soundboard/commit/ff5d8a6856907e84aa63546424d53a8af884bb8e))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @mdi/font to v5.1.45 ([10d85de](https://www.github.com/Jabster28/meme-soundboard/commit/10d85dea03d09b083bf182149bf03b889d4f9f29))
+* **deps:** update dependency @mdi/font to v5.2.45 ([bc381a4](https://www.github.com/Jabster28/meme-soundboard/commit/bc381a4e875d50554fe122ec21f33262cca972a0))
+* **deps:** update dependency @mdi/font to v5.3.45 ([c71d922](https://www.github.com/Jabster28/meme-soundboard/commit/c71d92292446683169f64893c79a55d5637ebab5))
+* **deps:** update dependency commitizen to v4.1.2 ([9d0d50f](https://www.github.com/Jabster28/meme-soundboard/commit/9d0d50fb7eaabf3fa64fe6f6e68166ed140a65d8))
+* **deps:** update dependency core-js to v3.6.5 ([c983d05](https://www.github.com/Jabster28/meme-soundboard/commit/c983d05cf113be1d8d567d53e49135a7b0f6ee6d))
+* **deps:** update dependency serve to v11.3.1 ([84ce0a9](https://www.github.com/Jabster28/meme-soundboard/commit/84ce0a98f4fccf6cf37e7b3d9d84f01a75e49746))
+* **deps:** update dependency vuetify to v2.2.22 ([0b3fa51](https://www.github.com/Jabster28/meme-soundboard/commit/0b3fa51f6012f94ad8c7147edf5156bba765f22d))
+* **deps:** update dependency vuetify to v2.2.28 ([7008727](https://www.github.com/Jabster28/meme-soundboard/commit/700872798faef8520738ffc43f8884000f0a5c6e))
+* **deps:** update dependency vuetify to v2.2.29 ([1422e77](https://www.github.com/Jabster28/meme-soundboard/commit/1422e77855ac74bafa08113565f0626e31e2a532))
+* **deps:** update dependency vuetify to v2.2.31 ([bac8509](https://www.github.com/Jabster28/meme-soundboard/commit/bac8509209538550b8724cd20bf48584510ea85b))
+* **deps:** update vue monorepo to v4.4.1 ([b53a29f](https://www.github.com/Jabster28/meme-soundboard/commit/b53a29f7ef9c96001775c885d0c70052633a1664))
+* **deps:** update vue-cli monorepo to v4.3.1 ([793352c](https://www.github.com/Jabster28/meme-soundboard/commit/793352c021b638cef6847b62cc4c5ec28ca2ed2b))
+
+
+### Reverts
+
+* removing binary file ([ec158bf](https://www.github.com/Jabster28/meme-soundboard/commit/ec158bf2dc495d5653d527ca2c455417874499da))
+
 ## [1.3.0](https://github.com/Jabster28/meme-soundboard/compare/v1.2.0...v1.3.0) (2020-04-15)
 
 
