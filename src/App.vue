@@ -157,6 +157,7 @@ export default {
     songsnippet: Snippet
   name: 'app',
   created: ->
+    console.info "running on commit #{process.env.VUE_APP_GIT_HASH}"
     window.onYouTubeIframeAPIReady = ->
       console.log "ready"
       eval(e + "()") for e in window.ytplayers

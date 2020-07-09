@@ -10,7 +10,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "host": "serve dist/",
-    "build": "sed -i \"s/commitHashHere/$(git rev-parse --short HEAD)/\" public/index.html && vue-cli-service build",
+    "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "debug": "vue ui",
     "refresh": "refresh",
@@ -43,6 +43,7 @@
     "css-loader": "3.6.0",
     "cz-conventional-changelog": "3.2.0",
     "firebase-tools": "8.5.0",
+    "git-describe": "^4.0.4",
     "husky": "4.2.5",
     "node-sass": "4.14.1",
     "sass": "1.26.10",
