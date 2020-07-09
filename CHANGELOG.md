@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.4.1](https://www.github.com/Jabster28/meme-soundboard/compare/v1.4.0...v1.4.1) (2020-07-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency serve to v11.3.2 ([d1e645c](https://www.github.com/Jabster28/meme-soundboard/commit/d1e645c206b72644ac6255041f41507d367076a9))
+* **deps:** update dependency vuetify to v2.3.4 ([bd4dddc](https://www.github.com/Jabster28/meme-soundboard/commit/bd4dddc52a6e0168a6b2b027ee39a9eae763ca27))
+* **deps:** update vue monorepo ([5b0a345](https://www.github.com/Jabster28/meme-soundboard/commit/5b0a3453697144e51e627f97581f14eb57598720))
+
 ## [1.4.0](https://www.github.com/Jabster28/meme-soundboard/compare/v1.3.0...v1.4.0) (2020-07-07)
 
 
