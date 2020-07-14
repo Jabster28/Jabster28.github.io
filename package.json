@@ -48,7 +48,7 @@
     "node-sass": "4.14.1",
     "sass": "1.26.10",
     "sass-loader": "9.0.2",
-    "standard-version": "8.0.1",
+    "standard-version": "8.0.2",
     "vue-cli-plugin-coffee": "0.5.12",
     "vue-cli-plugin-vuetify": "2.0.6",
     "vue-loader": "15.9.3",
