@@ -7,7 +7,9 @@
       <v-app-bar app>
         <v-row justify="center">
           <v-btn class="float-left" icon @click="toggleTheme()">
-            <v-icon :dark="this.$vuetify.theme.dark">mdi-theme-light-dark</v-icon>
+            <v-icon :dark="this.$vuetify.theme.dark"
+              >mdi-theme-light-dark</v-icon
+            >
           </v-btn>
           <v-btn icon @click="startAll()">
             <v-icon color="info">mdi-play</v-icon>
@@ -34,6 +36,12 @@
               desc="your mom looks like Kim Jong Un"
               url="https://www.youtube.com/watch?v=AMYhP4H9m1I"
               startTime="396"
+            />
+            <songsnippet
+              artist="Iyaz"
+              song="Replay"
+              desc="shawty"
+              url="https://www.youtube.com/watch?v=pCJzsTP12jo"
             />
             <songsnippet
               artist="Noisestorm"

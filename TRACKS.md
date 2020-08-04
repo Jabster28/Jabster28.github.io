@@ -3,6 +3,7 @@
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [List of all current tracks in the soundboard](#list-of-all-current-tracks-in-the-soundboard)
+  - [Replay](#replay)
   - [Good afternoon](#good-afternoon)
   - [Crab Rave](#crab-rave)
     - [Crab Rave [Bridge]](#crab-rave-bridge)
@@ -26,6 +27,12 @@
 # List of all current tracks in the soundboard
 
 If you want to add one, head to the bottom of the [contribution page](https://github.com/Jabster28/meme-soundboard/blob/master/CONTRIBUTING.md).
+
+## Replay
+
+- Artist: Iyaz
+- Description: "shawty"
+- URL: <https://www.youtube.com/watch?v=pCJzsTP12jo>
 
 ## Good afternoon
 
@@ -123,5 +130,3 @@ If you want to add one, head to the bottom of the [contribution page](https://gi
 - Description: "NANI!?!?"
 - Start Time: 4 (0:04)
 - URL: <https://www.youtube.com/watch?v=dNQs_Bef_V8>
-
-
