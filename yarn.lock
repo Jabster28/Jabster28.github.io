@@ -15745,10 +15745,10 @@ vue-cli-plugin-apollo@^0.21.3:
     subscriptions-transport-ws "^0.9.16"
     ts-node "^8.4.1"
 
-vue-cli-plugin-coffee@0.5.12:
-  version "0.5.12"
-  resolved "https://registry.yarnpkg.com/vue-cli-plugin-coffee/-/vue-cli-plugin-coffee-0.5.12.tgz#2190407e65434f8eca21e2fa5ebb8dc8c60827d3"
-  integrity sha512-c0y77ejd522L6m//euUgZc+lgXlYKrVLCgVJNFDXO46/0fqkIgcfZtHKm6Du52jXwn5G0MnoDFv2xvUKzqF0uA==
+vue-cli-plugin-coffee@0.5.13:
+  version "0.5.13"
+  resolved "https://registry.yarnpkg.com/vue-cli-plugin-coffee/-/vue-cli-plugin-coffee-0.5.13.tgz#0afcfd3a7b9f050458869afcd445f5bea7e4d9b6"
+  integrity sha512-/DkfYTDTPWlYAUS82RUh46lx9TzdirtGGA5rSkWmw2P3AuCJnjEoybU2x3m9iy9qhAgrigULxVWrSSZ6IWUang==
   dependencies:
     "@babel/core" "^7.9.6"
     babel-loader "^8.1.0"
