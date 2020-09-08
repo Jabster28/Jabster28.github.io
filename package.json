@@ -40,7 +40,7 @@
     "cache-loader": "4.1.0",
     "coffee-loader": "1.0.0",
     "coffeescript": "2.5.1",
-    "css-loader": "3.6.0",
+    "css-loader": "4.3.0",
     "cz-conventional-changelog": "3.2.0",
     "firebase-tools": "8.5.0",
     "git-describe": "4.0.4",
