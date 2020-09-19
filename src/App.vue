@@ -166,12 +166,13 @@ export default {
   name: 'app',
   created: ->
     console.info "running on commit #{process.env.VUE_APP_GIT_HASH}"
-    window.onYouTubeIframeAPIReady = ->
-      console.log "ready"
-      eval(e + "()") for e in window.ytplayers
-    ytapi = document.createElement 'script'
-    ytapi.setAttribute 'src', "//www.youtube.com/iframe_api"
-    document.head.appendChild ytapi
+    # window.onYouTubeIframeAPIReady = ->
+    #   console.log "ready"
+    #   eval(e + "()") for e in window.ytplayers
+      
+    # ytapi = document.createElement 'script'
+    # ytapi.setAttribute 'src', "//www.youtube.com/iframe_api"
+    # document.head.appendChild ytapi
 
   computed: {
     # time: (->

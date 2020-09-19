@@ -1,6 +1,24 @@
 <template>
   <div class="e">
-    <div :id="'video-placeholder-' + escName.replace(/_/gi, '-')"></div>
+    <!-- <div
+      :id="'video-placeholder-' + escName.replace(/_/gi, '-')"
+      data-plyr-provider="youtube"
+      :data-plyr-embed-id="url"
+      class="player"
+    /> -->
+    <div
+      class="plyr__video-embed"
+      :id="'video-placeholder-' + escName.replace(/_/gi, '-')"
+    >
+      <iframe
+        class="player"
+        :src="url"
+        allowfullscreen
+        width="0"
+        height="0"
+        frameborder="0"
+      />
+    </div>
     <v-col>
       <v-card
         :loading="!ready"
@@ -14,24 +32,40 @@
         <!-- https://img.youtube.com/vi/<insert-youtube-video-id-here>/sddefault.jpg -->
         <v-list-item three-line>
           <v-list-item-content>
-            <div class="overline mb-4">{{artist}}</div>
-            <v-list-item-title class="headline mb-1">{{ song }}</v-list-item-title>
-            <v-list-item-subtitle>{{desc}}</v-list-item-subtitle>
+            <div class="overline mb-4">{{ artist }}</div>
+            <v-list-item-title class="headline mb-1">{{
+              song
+            }}</v-list-item-title>
+            <v-list-item-subtitle>{{ desc }}</v-list-item-subtitle>
           </v-list-item-content>
 
           <v-list-item-avatar tile size="80" color="grey">
-            <v-img :src="`https://img.youtube.com/vi/${youtube_parser(url)}/sddefault.jpg`"></v-img>
+            <v-img
+              :src="`https://img.youtube.com/vi/${youtube_parser(
+                url
+              )}/sddefault.jpg`"
+            ></v-img>
           </v-list-item-avatar>
         </v-list-item>
 
         <v-card-actions>
-          <v-btn text @click="startVideo(true)" color="primary" :disabled="!ready">
+          <v-btn
+            text
+            @click="startVideo(true)"
+            color="primary"
+            :disabled="!ready"
+          >
             <v-icon>mdi-play</v-icon>
           </v-btn>
           <v-btn text @click="pauseVideo()" color="error" :disabled="!ready">
             <v-icon>mdi-pause</v-icon>
           </v-btn>
-          <v-btn text @click="restartVideo()" color="success" :disabled="!ready">
+          <v-btn
+            text
+            @click="restartVideo()"
+            color="success"
+            :disabled="!ready"
+          >
             <v-icon>mdi-replay</v-icon>
           </v-btn>
         </v-card-actions>
@@ -41,6 +75,8 @@
 </template>
 
 <script lang="coffee">
+import * as Plyr from 'plyr';
+
 export default 
   name: 'Snippet'
   props: [
@@ -75,6 +111,7 @@ export default
     ready: false
     playing: false
   mounted: ->
+    this.player = new Plyr('#video-placeholder-' + @escName.replace(/_/gi, '-'));
     window[@escName + "_instance"] = this
     window[@escName + "_init"] = (e) ->
       # Update the controls on load
@@ -121,15 +158,14 @@ export default
           onReady: (=> window[@escName + "_init"](@escName))
           onStateChange: window.onPlayerStateChange
           )
-      return
     window.onPlayerStateChange = ->
       # console.log "change"
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-#player {
-  display: none;
+.player {
+  display: none !important;
 }
 h3 {
   margin: 40px 0 0;
