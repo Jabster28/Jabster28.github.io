@@ -28,7 +28,7 @@
     "vuetify": "2.3.4"
   },
   "devDependencies": {
-    "@babel/helper-call-delegate": "7.10.4",
+    "@babel/helper-call-delegate": "7.12.13",
     "@commitlint/cli": "9.0.1",
     "@commitlint/config-conventional": "9.0.1",
     "@vue/cli-plugin-babel": "4.4.6",
@@ -36,7 +36,7 @@
     "@vue/cli-plugin-vuex": "4.4.6",
     "@vue/cli-service": "4.4.6",
     "@vue/test-utils": "1.0.3",
-    "babel-loader": "8.1.0",
+    "babel-loader": "8.2.2",
     "cache-loader": "4.1.0",
     "coffee-loader": "1.0.0",
     "coffeescript": "2.5.1",
