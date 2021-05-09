@@ -21,7 +21,7 @@
   "dependencies": {
     "@mdi/font": "5.3.45",
     "@vue/cli": "4.4.6",
-    "commitizen": "4.1.2",
+    "commitizen": "4.2.4",
     "core-js": "3.6.5",
     "serve": "11.3.2",
     "vue": "2.6.11",
